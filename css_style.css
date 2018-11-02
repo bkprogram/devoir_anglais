@@ -1,0 +1,129 @@
+.nav-bar {
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 6%;
+    position: absolute;
+    width:100%;
+    text-align: left;
+    float:left;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.4);
+}
+
+.logo {
+    background: rgba(32, 23, 23, 0.5);
+    width: 5%;
+    display: inline-block;
+    color: rgba(233, 224, 224, 0.966);
+}
+
+.nav-list {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.home-block {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    float: left;
+}
+.nav-block {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.nav-block:hover {
+    background-color: grey;
+}
+
+.style-cookie {
+    left: 0;
+    bottom:0;
+    width:100%;
+    height:10%;
+
+    background: rgba(14, 22, 14, 0.2);
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.125rem;
+    position: fixed;
+    float: left;
+    font-family: Arial;
+}
+
+.inner{
+    vertical-align: middle;
+}
+
+.cookie-text-bloc {
+    display: inline-block;
+    padding: 20px;
+    width: 45%;
+    height: 60px;
+    text-align: left;
+}
+
+.ovale {
+    display: inline-block;
+    padding-top: 5px;
+    width: 10%;
+    height: 30%;
+    border:1px solid #fff;
+    background: #9a4;
+    -webkit-border-radius: 100px / 60px;
+    -moz-border-radius:    100px / 60px; 
+    border-radius:         100px / 60px; 
+}
+
+.ovale:hover {
+    border:none;
+}
+
+.bg-leaves { 
+    position: fixed;
+    background-image: url("leaves.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: -20;
+
+    min-height: 100%;
+    min-width: 100%;
+    
+    opacity: 0.5;
+
+    z-index: -1;
+}
+
+.p-zone {
+    position: relative;
+    width: 600px;
+    margin: 90px auto;
+    padding: 20px;
+    background: white;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+p {
+    font-family: "Arial", Times, serif;
+    font-size: 36px;
+}
